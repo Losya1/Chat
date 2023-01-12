@@ -99,6 +99,9 @@ void authorized_user(string name) {
 			cout << "logout" << endl;
 			b = false;
 			break;
+		default:
+			cout << "error" << endl;
+			break;
 		}
 	}
 }
